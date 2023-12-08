@@ -9,7 +9,7 @@ Die Webseite besteht aus insgesamt 4 Seiten. Ich habe mit dem HTML/CSS Code bego
 Die grösste Herausforderung für mich war das Kontaktformular. Ich habe bisher nur wenig mit PHP und Javascript gearbeitet und fühle mich in diesem Bereich nicht besonders sicher. Mit der Hilfe von ChatGPT ist es mir aber gelungen, ein funktionierendes Kontaktformular zu erstellen. 
 
 <h2>Quellen:</h2>
-https://www.plesk.com/
-https://chat.openai.com
-https://www.w3schools.com
-https://stackoverflow.com/
+https://www.plesk.com/<br>
+https://chat.openai.com<br>
+https://www.w3schools.com<br>
+https://stackoverflow.com/<br>
