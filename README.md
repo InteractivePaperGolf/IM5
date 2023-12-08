@@ -2,7 +2,7 @@
  
 Auf der Webseite bachelor.janchristen.ch werden Informationen zum Thema Social Media und die Auswirkung auf Schülerinnen und Schüler thematisiert. In diese Richtung werde ich auch im Rahmen meiner Bachelorarbeit forschen.
 
-<b>Inhalt:</b>
+<h2>Inhalt:</h2>
 Die Webseite besteht aus insgesamt 4 Seiten. Ich habe mit dem HTML/CSS Code begonnen und von Anfang an darauf geachtet, dass die Seite responsive ist. Mir war ausserdem wichtig, dass ich eine Navigation habe, die auch auf dem Smartphone funktioniert. Deshalb habe ich mich ab einer Breite von 800px für eine Hamburger Navigation entschieden. Diese ist aufklappbar und mit Hilfe von JavaScript erstellt. 
 
 Herausforderungen:
