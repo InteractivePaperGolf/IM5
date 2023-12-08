@@ -1,0 +1,305 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #FCF1E8;
+}
+
+header {
+    background-color: #257BA1;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-transform: uppercase;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: #E9BABD;
+}
+
+p{
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+h1{
+    font-size: 35px;
+}
+h3{ 
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+.headerstyle {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #257BA1;
+        z-index: 1;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+    nav ul {
+        display: block;
+        height: 100vh;
+        margin-top: 30px
+    }
+    nav ul li{
+        padding: 15px;
+        font-size: 20px;
+    }
+    .kacheln1 {
+        max-width: 1200px;
+        margin: 50px auto;
+        padding: 20px;
+        margin-top: 20%;
+        
+    }
+    
+
+}
+
+nav ul li a {
+    text-decoration: none; /* Entfernt die Standardunterstreichung */
+    position: relative;
+    color: white; /* Oder jede andere Farbe, die Sie wünschen */
+}
+
+nav ul li a:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Dicke der Unterstreichung */
+    background-color: white; /* Farbe der Unterstreichung */
+    bottom: -5px; /* Position der Unterstreichung */
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+.kacheln1 {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    margin-top: 10%;
+    
+}
+.kacheln2 {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    margin-bottom: 10%;
+    
+}
+
+.kacheln3 {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    
+    margin-bottom: 0px;
+}
+
+.kacheln4 {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    margin-top: -100px;
+
+    
+}
+
+@media screen and (max-width: 800px) {
+    .kacheln1 {
+        max-width: 1200px;
+        margin: 50px auto;
+        padding: 20px;
+        margin-top: 20%;
+        
+    }
+    
+}
+
+
+/* Flexbox Layout */
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* verteilt die Spalten gleichmäßig */
+}
+
+.column {
+    flex: 1; /* Jede Spalte nimmt den gleichen Platz ein */
+    padding: 20px;
+    margin: 0 10px; /* Ein bisschen Abstand zwischen den Spalten */
+    border-radius: 10px;
+}
+
+/* Für kleine Bildschirme */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column; /* Die Spalten werden untereinander angezeigt */
+    }
+
+    .column {
+        margin: 10px 0;
+    }
+}
+.splatenbilder{
+    width: 100%;
+}
+.button1 {
+    background-color: #FCF1E8;
+    ; /* Standart  background */
+    color: black; /* black text */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor changes to a pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.button1:hover {
+    background-color: #98908a /* Darker red background on hover */
+}
+
+.background-green{
+    background-color: #8EABA9;
+}
+
+.background-blue{
+    background-color: #257BA1;
+}
+
+.background-pink{
+    background-color: #E9BABD;
+}
+
+.standartbilder{
+    border-radius: 25px;
+    width: 100%;
+    max-width: 600px;
+}
+.logo1{
+    width: 100px;
+}
+
+.margin-bottom1{
+    margin-bottom: 40px;
+}
+
+/* Formular*/
+
+
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FCF1E8;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #257BA1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-color: #13455b;
+}
+#nachricht{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.standartbilder1{
+    border-radius: 25px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20%;
+}
+
